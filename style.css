@@ -19,7 +19,7 @@
     height: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    justify-content: center;
     overflow: auto;
   }
   #dinner{
@@ -49,6 +49,16 @@
 
   }
   #partytime{
+
       height: 50%;
       background-color: #F15A29;
+      text-align: center
   }
+  #partytime,#happyhour,#breakfast,#lunch,#dinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+  }
+  
