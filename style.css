@@ -15,3 +15,18 @@
       color: black;
       display: none;
   }
+  #bannertabs{
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #dinner{
+      background-image: url(/assets/foodtop/dinner.jpg);
+  }
+  #lunch{
+      background-image: url(/assets/foodtop/lunch.jpg);
+  }
+  #breakfast{
+      background-image: url(/assets/foodtop/breakfast.jpg);
+  }
