@@ -2,6 +2,7 @@
     background-image: url('/assets/backgrounds/landing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 800px;
 }
 
 #menu div {
@@ -14,6 +15,14 @@
       background-color: #F15A29;
       color: black;
       display: none;
+  }
+  #icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
   }
   #bannertabs{
     height: 300px;
