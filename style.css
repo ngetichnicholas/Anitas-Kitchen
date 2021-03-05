@@ -3,3 +3,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#menu div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  #menu>ul>li{
+      background-color: #F15A29;
+      color: black;
+      display: none;
+  }
