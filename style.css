@@ -88,10 +88,21 @@ nav{
     color: white;
   }
   #fastfood{
-    height: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: auto;
+    padding-left: 200px;
   }
-  
+  #image{
+    width: 100%x;
+    height: 100%;
+    border: 3px solid #ccc;
+    background: #eee;
+    margin: auto;
+    padding: 15px 10px;
+  }
+  #content{
+padding-right: 200px;
+padding-left: 80px;
+  }
