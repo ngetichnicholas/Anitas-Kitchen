@@ -3,13 +3,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    padding-top: 100px;
+}
+nav{
+    margin: 20;
+    margin-top: 0;
 }
 
 #menu div {
-    width: 35px;
+    width: 50px;
     height: 5px;
     background-color: white;
     margin: 6px 0;
+    margin-left: 80px;
+  }
+  #menu div:first-child{
+
   }
   #menu>ul>li{
       background-color: #F15A29;
