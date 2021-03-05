@@ -87,4 +87,11 @@ nav{
     font-size: 2em;
     color: white;
   }
+  #fastfood{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: auto;
+  }
   
