@@ -93,6 +93,7 @@ nav{
     justify-content: space-around;
     overflow: auto;
     padding-left: 200px;
+    padding-top: 90px;
   }
   #image{
     width: 100%x;
