@@ -16,17 +16,39 @@
       display: none;
   }
   #bannertabs{
-    height: 15%;
+    height: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: stretch;
+    overflow: auto;
   }
   #dinner{
+      width:25%;
       background-image: url(/assets/foodtop/dinner.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
   }
   #lunch{
+      width: 25%;
       background-image: url(/assets/foodtop/lunch.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
   }
   #breakfast{
+    width: 25%;
       background-image: url(/assets/foodtop/breakfast.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #happytime{
+      width: 25%;
+  }
+  #happyhour{
+      height: 50%;
+      background-color: rgba(209, 205, 202, 0.699);
+
+  }
+  #partytime{
+      height: 50%;
+      background-color: #F15A29;
   }
