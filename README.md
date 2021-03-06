@@ -5,7 +5,7 @@ Nicholas Ngetich
 This is website about food vendor called Anitas-Kitchen
 . It is a website that show what Anitas-Kitchen
  is selling to its customers.
-![alt text](https://github.com/ngetichnicholas/Anitas-Kitchen/Anitas-Kitchen.png)
+![alt text](https://github.com/ngetichnicholas/Anitas-Kitchen/blob/master/Anitas-Kitchen.png?raw=true)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal

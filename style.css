@@ -1,5 +1,5 @@
 #banner{
-    background-image: url('/assets/backgrounds/landing.jpg');
+    background-image: url('assets/backgrounds/landing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
@@ -50,19 +50,19 @@ nav{
   }
   #dinner{
       width:25%;
-      background-image: url(/assets/foodtop/dinner.jpg);
+      background-image: url(assets/foodtop/dinner.jpg);
       background-repeat: no-repeat;
       background-size: cover;
   }
   #lunch{
       width: 25%;
-      background-image: url(/assets/foodtop/lunch.jpg);
+      background-image: url(assets/foodtop/lunch.jpg);
       background-repeat: no-repeat;
       background-size: cover;
   }
   #breakfast{
     width: 25%;
-      background-image: url(/assets/foodtop/breakfast.jpg);
+      background-image: url(assets/foodtop/breakfast.jpg);
       background-repeat: no-repeat;
       background-size: cover;
   }
