@@ -17,9 +17,6 @@ nav{
     margin: 6px 0;
     margin-left: 80px;
   }
-  #menu div:first-child{
-
-  }
   #menu>ul>li{
       background-color: #F15A29;
       color: black;
@@ -211,6 +208,9 @@ padding-left: 80px;
      color: tomato;
      justify-content: center;
      font-size: 2em;
+   }
+   #subscribe{
+     background-image: url('assets/backgrounds/subscribe.jpg');
    }
    #footer{
      background-color: #F15A29;
