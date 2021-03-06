@@ -145,3 +145,37 @@ padding-left: 80px;
    }a span{
      font-size: 30px;
    }
+   #food{
+     background-image: url('assets/backgrounds/foodsBg.jpg');
+     height: 600px;
+     width: 80%;
+     margin-left: 180px;
+     padding-top: 80px;
+   }
+   #food ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: auto;
+    justify-content: space-around;
+    padding-left: 200px;
+    background-color: rgba(209, 205, 202, 0.699);
+    margin-left: 200px;
+    margin-right: 200px;
+    list-style: none;
+    padding-left: 10px;
+
+   }
+   #food ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   }
+   #food ul li a{
+    font-size: 2em;
+    color: black;
+    text-decoration: none
+   }
