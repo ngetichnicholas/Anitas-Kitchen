@@ -17,6 +17,14 @@ nav{
     margin: 6px 0;
     margin-left: 80px;
   }
+  #menu div:first-child{
+
+  }
+  #menu>ul>li{
+      background-color: #F15A29;
+      color: black;
+      display: none;
+  }
   #icon{
     display: flex;
     align-items: center;
