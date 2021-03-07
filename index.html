@@ -7,20 +7,42 @@
     <body>
         <div id="container">
             <div id="banner">
-                <div id="nav">
-                   
-                    <nav id="menu">
+                <div onclick="myFunction()"id="nav"  class="dropbtn">
                         <div></div>
                         <div></div>
                         <div></div>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#food">Food</a></li>
-                            <li><a href="#customers">Our Customers</a></li>
-                            <li><a href="aboutmenu">About Menu</a></li>
-                        </ul>
-                    </nav>
                 </div>
+                <div class="dropdown">
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#banner">Home</a>
+                        <a href="#food">Food</a>
+                        <a href="#customer">Our Customers</a>
+                        <a href="#aboutmenu">About Menu</a>
+                    </div>
+                  </div>
+                  
+                  <script>
+                    /* When the user clicks on the button, 
+                    toggle between hiding and showing the dropdown content */
+                    function myFunction() {
+                      document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                    
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function(event) {
+                      if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                          }
+                        }
+                      }
+                    }
+                    </script>
+
                 <div id="icon">
                     <img src="assets/logoBig.png" alt="">
                     <p>We Provide The Best Food <br>At The <strong>Right Price</strong></p>  
