@@ -204,6 +204,12 @@ padding-left: 80px;
     justify-content: space-around;
     background-color: white;
     list-style: none;
+    text-align: center;
+    align-items: center;
+   }
+   #scroll{
+    color: #F15A29;
+    font-size: 3em;
    }
    #chicken,#beef,#pizza{
      display: flex;
@@ -226,6 +232,17 @@ padding-left: 80px;
      justify-content: center;
      align-items: center;
      text-align: center;
+     margin: 20px 0px 20px 0px;
+   }
+   #custoimage{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 200px;
+     margin-right: 200px;
+     color: #F15A29;
+     font-size: 3em;
    }
    #aboutmenu{
      justify-content: justify;
