@@ -34,6 +34,7 @@ nav{
   }
   h3{
       font-weight: 100;
+      color: #F15A29;
   }
   strong{
       font-weight: 900;
@@ -56,6 +57,7 @@ nav{
       background-image: url(assets/foodtop/lunch.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      opacity: 0.4;
   }
   #breakfast{
     width: 25%;
@@ -69,7 +71,9 @@ nav{
   #happyhour{
       height: 50%;
       background-color: rgba(209, 205, 202, 0.699);
-
+  }
+  #happyhour span{
+    color: black;
   }
   #partytime{
 
@@ -213,7 +217,7 @@ padding-left: 80px;
      justify-content: center;
      align-items: center;
      box-shadow: 0px 0px 5px gray;
-     margin: 20px 200px 20px 200px;
+     margin: 80px 200px 80px 200px;
    }
    #customer{
      justify-content: center;
@@ -222,7 +226,7 @@ padding-left: 80px;
    }
    #aboutmenu{
      justify-content: justify;
-     border-left: 1px solid grey;
+     border-left: 1px solid rgb(214, 210, 210);
      padding-left: 30px;
    }
    #subscribe{
@@ -246,7 +250,14 @@ padding-left: 80px;
      width: 400px;
      margin-right: 20px;
      font-size: 1.5em;
+     background-color: gray;
+     color: white;
+     padding-left: 15px;
    }
+   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.9; /* Firefox */
+  }
    button{
      height: 40px;
      width: 200px;
@@ -262,6 +273,7 @@ padding-left: 80px;
      overflow: auto;
      text-align: center;
      align-items: center;
+     color: white;
    }
    #menulink{
      font-size: 3em;
