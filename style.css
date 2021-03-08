@@ -343,3 +343,8 @@ padding-left: 80px;
     margin: 0px 30px 0px 0px;
 
    }
+   @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
