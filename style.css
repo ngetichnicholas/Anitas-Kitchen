@@ -176,7 +176,7 @@ nav{
    }
    #food{
      background-image: url('assets/backgrounds/foodsBg.jpg');
-     height: 520px;
+     height: 580px;
      padding-top: 80px;
      margin-top: 80px;
    }
@@ -348,28 +348,60 @@ nav{
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      overflow: auto;
       padding-left: 0;
       padding-top: 90px;
+      width: 100%;
+      overflow: hidden;
     }
     #fastfootcontent{
       padding-right: 10px;
       padding-left: 10px;
-        }
+    }
         #drinks{
           display: flex;
           flex-direction: column;
           justify-content: center;
-          overflow: auto;
           padding-left: 10px;
           padding-top: 90px;
+          width: 100%;
+          margin-right: 20px;
+          overflow: hidden;
         }
-        .content{
-          background-color: white;
-          margin-left: 10px;
-          margin-right: 10px;
-          padding-bottom: 60px;
-        }
+        #drinkscontent{
+          margin-left: 0px;
+          width: 460px;
+          padding-right: 10px;
+          text-align: left;
+          padding-right: 10px;
+          padding-left: 10px;
+          }
+          #drinksimage{
+            height: 100%;
+            padding: 15px 10px;
+          }
+          #food{
+          height: 1360px;
+          }
+          .content{
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-bottom: 60px;
+            padding-bottom: 60px;
+          }
+          #selected{
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+            justify-content: space-around;
+            list-style: none;
+            text-align: center;
+            align-items: center;
+            margin-bottom: 100px;
+          
+           }
+           #selected span{
+             display: none;
+           }
         #customermenu{
           display: flex;
           flex-direction: column;
@@ -398,6 +430,10 @@ nav{
           justify-content: justify;
           border-left: 1px solid rgb(214, 210, 210);
           padding-left: 10px;
+          align-items: center;
+        }
+        #aboutmenu h3{
+          text-align: center;
         }
         #email{
           display: flex;
@@ -424,21 +460,4 @@ nav{
           width:100%;
           height: 300px;
       }
-      #food{
-        height: 1200px;
-      } 
-      #selected{
-        display: flex;
-        flex-direction: column;
-        overflow: auto;
-        justify-content: space-around;
-        background-color: white;
-        list-style: none;
-        text-align: center;
-        align-items: center;
-       }
-       #selected span{
-         display: none;
-       }
- 
   }
