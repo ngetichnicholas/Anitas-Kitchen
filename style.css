@@ -399,4 +399,17 @@ padding-left: 80px;
           border-left: 1px solid rgb(214, 210, 210);
           padding-left: 10px;
         }
+        #email{
+          display: flex;
+          flex-direction: column;
+        }
+        input{
+          height: 40px;
+          width: 250px;
+          margin-right: 20px;
+          font-size: 1.5em;
+          background-color: gray;
+          color: white;
+          padding-left: 10px;
+        }
   }
